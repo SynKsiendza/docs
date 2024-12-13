@@ -7,12 +7,12 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#4B0D93FF",
+    "light": "#6619C5FF",
+    "dark": "#360756FF",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#360756",
+      "to": "#4B0D93"
     }
   },
   "topbarLinks": [
@@ -27,25 +27,23 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
+      "name": "C++ Lib",
+      "url": "cpp-lib/index"
+    },
+    {
+      "name": "Web Lib",
+      "url": "web-lib/index"
+    },
+    {
+      "name": "FusionManagementSystem",
+      "url": "fusionMS/index"
+    },
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
       "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "book-open-cover",
+      "url": "blog"
     }
   ],
   "navigation": [
